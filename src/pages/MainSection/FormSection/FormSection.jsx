@@ -1,9 +1,10 @@
 import "./FormSection.css"
+import RequestHistory from "./RequestHistory/RequestHistory";
 
 const FormSection = () => {
     return (
-        <div style={{backgroundColor: "#FFFFFF", padding: "15px"}}>
-            This is Form Section
+        <div style={{ backgroundColor: "#FFFFFF", padding: "15px" }}>
+            <RequestHistory />
         </div>
     );
 };
