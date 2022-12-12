@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="fs-3 fw-bold navTitle">Faucets</div>
             <div className="d-flex justify-content-center">
                 <select className="bg-light border px-4 py-2">
-                    <option selected >Ethereum Kovan</option>
+                    <option defaultValue={"Ethereum Kovan"} >Ethereum Kovan</option>
                     <option >Arbitrum Rinkeby</option>
                     <option >BNB Chain Testnet</option>
                     <option >Ethereum Rinkeby</option>

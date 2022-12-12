@@ -9,6 +9,7 @@
 .navbarBtn{
     border-color: #9B1FE9;
     border-style: solid;
+    cursor: pointer;
 }
 
 .fontSize{
