@@ -1,0 +1,16 @@
+/* .fontSize{
+    border-radius: 50%;
+} */
+
+.navTitle{
+    color: #9B1FE9;
+}
+
+.navbarBtn{
+    border-color: #9B1FE9;
+    border-style: solid;
+}
+
+.fontSize{
+    font-size: 2em;
+}
