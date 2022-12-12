@@ -3,7 +3,8 @@ import "./Navbar.css"
 
 const Navbar = () => {
     return (
-        <Stack direction="horizontal" className="justify-content-between p-3" gap={3}>
+        <div>
+            <Stack direction="horizontal" className="justify-content-between p-3" gap={3}>
             <div className="fs-3 fw-bold navTitle">Faucets</div>
             <div className="d-flex justify-content-center">
                 <select className="bg-light border px-4 py-2">
@@ -21,6 +22,7 @@ const Navbar = () => {
                 <i className="fa-regular fa-user fontSize p-2"></i>
             </div>
         </Stack>
+        </div>
 
     );
 };
