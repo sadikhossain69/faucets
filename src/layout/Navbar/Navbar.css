@@ -2,6 +2,12 @@
     border-radius: 50%;
 } */
 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
 .navTitle{
     color: #9B1FE9;
 }
@@ -14,4 +20,19 @@
 
 .fontSize{
     font-size: 2em;
+}
+
+@media only screen and (max-width: 510px) {
+    .nav-container {
+        display: flex;
+        /* justify-content: space-between; */
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .option-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
