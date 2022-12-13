@@ -1,4 +1,5 @@
 import { Button, Container, Dropdown, DropdownButton, NavbarBrand, Stack } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
                         <option >Harmony Testnet</option>
                     </select>
                     <div className="bg-light px-4 py-2 fw-bold navTitle navbarBtn mx-3">Connect Wallet</div>
-                    <i className="fa-regular fa-user fontSize p-2"></i>
+                    <Link to={'/login'}><i className="fa-regular fa-user fontSize p-2"></i></Link>
                 </div>
             </div>
         </div>
