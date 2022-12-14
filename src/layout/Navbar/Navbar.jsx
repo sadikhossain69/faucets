@@ -14,7 +14,7 @@ const Navbar = () => {
             showCloseButton: true,
         })
     }
-
+ 
     return (
         <div>
             <div className="nav-container" gap={3}>
